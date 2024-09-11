@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ 
+    <style>
+    .container {
+        width:996px;
+        margin:0px auto;
+        font-size:1em;
+    }
+    section,aside {
+        padding: 10px;
+        background:#ccc;
+        -moz-border-radius:5px;-webkit-border-radius:5px;-o-border-radius:5px;border-radius:5px;
+    }
+    section {
+        float: left;
+        width: 70%;
+    }
+    aside {
+        float: right;
+        width: 25%;
+    }
+    nav {
+        overflow: hidden;
+    }
+    nav ul {
+        list-style-type:none;
+        float:left;
+        padding:0px;
+    }
+    nav ul li {
+        float:left;
+        padding:3px 10px;
+        margin:2px;
+        background:#ccccff;
+        -moz-border-radius:5px;-webkit-border-radius:5px;-o-border-radius:5px;border-radius:5px;
+    }
+    footer {
+        margin:10px;
+        text-align:center;
+        clear:both;
+    }
+    .img-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+      border-color: black;
+      padding: 10px;
+    }
+    img {
+        max-width: 50%; /* Cambia 100% al valor que prefieras */
+        height: 50%; /* Asegura que la altura se ajuste automáticamente */
+        display: block; /* Elimina espacio adicional alrededor de la imagen */
+        margin: 0 auto; /* Centra la imagen horizontalmente */
+    }
+
+    .img1 {
+        max-width: 5%; /* Cambia 100% al valor que prefieras */
+        height: 5%; /* Asegura que la altura se ajuste automáticamente */
+        display: block; /* Elimina espacio adicional alrededor de la imagen */
+        margin: 0 auto; /* Centra la imagen horizontalmente */
+    }
+ 
+    /* para 980px o menos */
+    @media screen and (max-width:980px) {
+        .container {
+            width:98%;
+        }
+        section {
+            width:68%;
+        }
+    }
+ 
+    /* para 700px o menos */
+    @media screen and (max-width:700px) {
+        aside,section {
+            float:none;
+            width:96%;
+        }
+        nav, section {
+            font-size:1.2em;
+        }
+        aside {
+            margin-top:5px;
+        }
+        nav ul {
+            float:none;
+            clear:both;
+        }
+    }
+ 
+    /* para 480px o menos */
+    @media screen and (max-width:480px) {
+        aside {
+            display:none;
+        }
+        nav, section {
+            font-size:1.5em;
+        }
+        section {
+            width:94%;
+        }
+        nav ul {
+            float:left;
+            clear:none;
+            width:50%;
+        }
+        nav ul li {
+            float:none;
+        }
+    }
+    </style>
+ 
+</head>
+ 
+<body bgcolor="black">
+ 
+<div class="container">
+    <header>
+     <center><font color = "#ccccff"><h1>LAGUNA CASTRO YAOTEKATL DE JESUS</h1></font></center>
+     <div class="img-container">
+        <img src="img/YisusS1.gif" alt="GIF">
+
+        <img src="img/YisusS.gif" alt="GIF">
+        
+        <img src="img/YisusS1.gif" alt="GIF">
+      </div>
+    <header>
+ 
+    <nav>
+        <ul>
+            <li>JUEGO 1</li>
+            <li>JUEGO 2</li>
+            <li>JUEGO 3</li>
+            <li>JUEGO 4</li>
+        </ul>
+        <ul>
+            <li>JUEGO 5</li>
+            <li>JUEGO 6</li>
+            <li>JUEGO 7</li>
+            <li>JUEGO 8</li>
+        </ul>
+    </nav>
+ 
+    <section>
+        <p>Países del mundo</p>
+<ul type="circle">
+<li>Argentina</li>
+<li>Perú</li>
+<li>Chile</li>
+</ul>
+<ul type="disc">
+<li>Argentina</li>
+<li>Perú</li>
+<li>Chile</li>
+</ul>
+<ul type="square">
+<li>Argentina</li>
+<li>Perú</li>
+<li>Chile</li>
+</ul>
+<ul type="square">
+<li>Elemento 1
+<li>Elemento 2
+<li>Elemento 3
+<li type="circle">Elemento 4
+</ul>
+<p>Reglas de comportamiento en el trabajo</p>
+<ol type="1", start="1">
+<li>El jefe siempre tiene la razón
+<li>En caso de duda aplicar regla 1
+<li>En caso de duda aplicar regla 2
+<li>En caso de duda aplicar regla 3
+</ol>
+<p>Diccionario de la Real Academia</p>
+<dl>
+<dt>Brujula
+<dd>Señórula montada en una escóbula
+<dt>Oreja
+<dd>Sesenta minutejos
+</dl>
+    </section>
+    <aside>Aside
+<br>Aside
+    </aside>
+ 
+    <footer>
+        <br>
+        <h2><a href="https://www.facebook.com/yaotekatl.castro?mibextid=JRoKGi"><img title="SEGUIR"  src = "img/facebook.png" alt="" class="img1"></a></h2>
+    </footer>
+</div>
+</body>
+</html>
